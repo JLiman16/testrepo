@@ -1,0 +1,37 @@
+What our app could be able to do.
+
+-Login as a user and see your current collection of games. With information about the game such as average playing time, number of players supported, type of game (I.E. Abstract Strategy, Worker Placement, Deckbuilding, etc.)
+
+-Pick a game to play from your collection based on attributes about the game. E.G. "I want to play a two player abstract strategy that takes about 30 minutes to play tonight" And the app would say "From your collection you could play Chess, Hive, Checkers, etc."
+
+-Be able to pull collections from your Boardgamegeek.com user account, a popular site amongst boardgame enthusiasts via the API the site has setup. But also have support for adding games via the app itself. Support for pushing the collection back to the BGG account is sadly not possible due to limitations of the API.
+
+-Be able to pull from multiple BGG collections, so that you can include games that friends might own.
+
+-Be able to recommend new games to buy from the Boardgamegeek.com database based on games already in the users collection as well as boardgame attributes.
+
+A link to the BGG API(s) documentation
+https://boardgamegeek.com/wiki/page/BGG_XML_API
+https://boardgamegeek.com/wiki/page/BGG_XML_API2#
+
+How will this product make life easier?
+
+-Choosing a boardgame to play on a given night can be a daunting task when the user has a large collection of games. They may not remember for example how many people can play Settlers of Catan. The app will help choose a game that is appropriate for the number of players and particular mood.
+-An employee at a boardgame store with a large inventory may have trouble recommending games for customers to buy, with our app they can simply enter in the customers desires, and have a game picked from within the stores inventory 
+
+Other apps with similar functionality
+
+- Boardgamegeek.com itself aside from having an api will also recommend games related to a game viewed in the database. While useful for buying new games occasionally, it is specific only to finding games similar to the one particular game viewed. 
+
+- boardgamesfor.me is a useful website for boardgame recommendations but makes some broad generalizations (E.G. The first choice is "Strategy, Party, or Family" of which many games fit into either none or multiple of those categories) It also does not allow for picking of a game to play from within your collection however, nor can it account for games already in your collection in its recommendations
+
+- http://www.starlitcitadel.com/games/gamewizard.html is another good site with good algorithims but has similar limitations as boardgamesfor.me
+
+- http://smartreaction.duckdns.org/boardgamegeek/whatToPlay.xhtml Is an interesting tool for looking at a users collection specifically, but the algorithim does not appear to allow for choosing via game attributes.
+
+- https://www.boardgamegeek.com/article/9266150 Hmm okay this is problematic because this app looks amazing and does basically exactly what I want. However it doesn't appear to recommend new games you might enjoy, so that could seperate our app from that. Also we could add support for picking from multiple collections so that you can include games your friends own. Oh and we could bullshit and say "Our app is for those who don't want to install software locally"
+
+Who will use our app
+Most likely the more intense gamers rather than the casual gamer, those with large collections. Although possible to use without a BGG account, the vast vast majority of users will have BGG accounts. 
+Boardgame store employees could use this to recommend games to customers and be able to pick only games from within the stores inventory (Aka me, Adam, aka why I had the idea in the first place)
+
